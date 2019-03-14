@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d676892a-d655-4501-9a2a-78fda8c1caf5" name="Default" comment="" />
+    <list default="true" id="d676892a-d655-4501-9a2a-78fda8c1caf5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Transformations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Transformations.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,12 +28,12 @@
       <file leaf-file-name="Transformations.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Transformations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="114" column="33" lean-forward="true" selection-start-line="114" selection-start-column="33" selection-end-line="114" selection-end-column="33" />
+            <state relative-caret-position="-46">
+              <caret line="111" column="41" lean-forward="true" selection-start-line="111" selection-start-column="41" selection-end-line="111" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4013#4014#0" expanded="true" />
-                <element signature="e#4041#4042#0" expanded="true" />
+                <element signature="e#4081#4082#0" expanded="true" />
+                <element signature="e#4109#4110#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,6 +47,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -68,6 +75,7 @@
     <option name="width" value="942" />
     <option name="height" value="1053" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -121,7 +129,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+    <configuration name="3D_Transformations" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Transformations" />
       <module name="JavaFX_3D_Transformations" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -133,7 +141,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.3D_Transformations" />
       </list>
     </recent_temporary>
   </component>
@@ -147,12 +155,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552494952956</updated>
-      <workItem from="1552494956232" duration="3393000" />
+      <workItem from="1552494956232" duration="5570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3393000" />
+    <option name="totallyTimeSpent" value="5570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="0" width="942" height="1087" extended-state="0" />
@@ -168,8 +176,8 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32921812" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32921812" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20950323" />
@@ -211,12 +219,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Transformations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="114" column="33" lean-forward="true" selection-start-line="114" selection-start-column="33" selection-end-line="114" selection-end-column="33" />
+        <state relative-caret-position="-46">
+          <caret line="111" column="41" lean-forward="true" selection-start-line="111" selection-start-column="41" selection-end-line="111" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4013#4014#0" expanded="true" />
-            <element signature="e#4041#4042#0" expanded="true" />
+            <element signature="e#4081#4082#0" expanded="true" />
+            <element signature="e#4109#4110#0" expanded="true" />
           </folding>
         </state>
       </provider>

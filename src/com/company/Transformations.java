@@ -7,9 +7,11 @@ import javafx.scene.Camera;
 import javafx.scene.Group;
 import javafx.scene.PerspectiveCamera;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
+import javafx.scene.paint.PhongMaterial;
 import javafx.scene.shape.Box;
 import javafx.scene.transform.Rotate;
 import javafx.scene.transform.Transform;
@@ -27,7 +29,7 @@ public class Transformations extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        Box box = new Box(100, 20, 50);
+        Box box = prepareBox();
 
         SmartGroup group = new SmartGroup();
         group.getChildren().add(box);
@@ -40,8 +42,6 @@ public class Transformations extends Application {
         group.translateXProperty().set(WIDTH / 2);
         group.translateYProperty().set(HEIGHT / 2);
         group.translateZProperty().set(-1500);
-
-//        initMouseControl(group, scene);
 
         primaryStage.addEventHandler(MouseEvent.MOUSE_CLICKED, event ->{
             initMouseControl(group, scene);
@@ -67,6 +67,9 @@ public class Transformations extends Application {
                 case L:
                     group.translateZProperty().set(group.getTranslateZ() - 100);
                     break;
+                case V:
+                    group.rotateProperty().set(group.getRotate() + 10);
+                    break;
                 case Q:
                     group.rotateByX(10);
                     break;
@@ -91,6 +94,15 @@ public class Transformations extends Application {
         primaryStage.setTitle("3D Transformations");
         primaryStage.setScene(scene);
         primaryStage.show();
+    }
+
+    private Box prepareBox() {
+        PhongMaterial material = new PhongMaterial();
+        material.setDiffuseColor(Color.DARKBLUE);
+        material.setSpecularColor(Color.RED);
+        Box box = new Box(100, 20, 50);
+        box.setMaterial(material);
+        return box;
     }
 
     private SmartGroup initMouseControl(SmartGroup group, Scene scene) {
